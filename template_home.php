@@ -34,6 +34,7 @@ if ($post->post_content) : ?>
 		array(	'Flickr', 'social_flickr'	),
 		array(	'Foursquare', 'social_foursquare'	),
 		array(	'FriendFeed', 'social_friendfeed'	),
+		array(	'GitHub', 'social_github'	),
 		array(	'GoogleBuzz', 'social_googlebuzz'	),
 		array(	'GoogleTalk', 'social_googletalk'	),
 		array(	'Gowalla', 'social_gowalla'	),
@@ -50,7 +51,8 @@ if ($post->post_content) : ?>
 		array(	'Posterous', 'social_posterous'	),
 		array(	'Readernaut', 'social_readernaut'	),
 		array(	'Reddit', 'social_reddit'	),
-		array(	'Skype', 'social_skype'	),		
+		array(	'Skype', 'social_skype'	),	
+		array(	'SmugMug', 'social_smugmug'	),	
 		array(	'StumbleUpon', 'social_stumbleupon'	),
 		array(	'Tumblr', 'social_tumblr'	),
 		array(	'Twitter', 'social_twitter'	),
@@ -61,6 +63,7 @@ if ($post->post_content) : ?>
 		array(	'Xing', 'social_xing' ),
 		array(	'YahooBuzz', 'social_yahoobuzz'	),
 		array(	'Yelp', 'social_yelp'	),
+		array(	'Xbox Live', 'social_xboxlive'	),
 		array(	'YouTube', 'social_youtube'	),
 	);
 	foreach ($social_options as $social) {

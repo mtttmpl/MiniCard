@@ -33,10 +33,10 @@ if (file_exists(TEMPLATEPATH.'/premium/feed.php')) {
 			);
 } else {
 	// Basic
-	$message = __('The options below are used to configure the theme.','minicard').' '.__('Upgrade to the premium version of MiniCard to help support the author, get more sub-themes, and enable the main feed functionality.','minicard');
+	$message = __('The options below are used to configure the theme.','minicard');
 	$minicardthemes = __('Default','minicard');
 	$minicardthemes_dir = '';	
-	$minicardthemes_feed = array(__('Main Feed (Premium Theme Only)','minicard'), array());
+	
 }
 
 // Options = name, default, label, hint, rules
@@ -88,6 +88,7 @@ $minicard_options = (
 			array('social_flickr', '', __('Flickr:','minicard'),'',''),
 			array('social_foursquare', '', __('Foursquare:','minicard'),'',''),
 			array('social_friendfeed', '', __('FriendFeed:','minicard'),'',''),
+			array('social_github', '', __('GitHub:','minicard'),'',''),
 			array('social_googlebuzz', '', __('GoogleBuzz:','minicard'),'',''),
 			array('social_googletalk', '', __('GoogleTalk:','minicard'),'',''),
 			array('social_gowalla', '', __('Gowalla:','minicard'),'',''),
@@ -104,7 +105,8 @@ $minicard_options = (
 			array('social_posterous', '', __('Posterous:','minicard'),'',''),
 			array('social_readernaut', '', __('Readernaut:','minicard'),'',''),
 			array('social_reddit', '', __('Reddit:','minicard'),'',''),
-			array('social_skype', '', __('Skype:','minicard'),'',''),			
+			array('social_skype', '', __('Skype:','minicard'),'',''),
+			array('social_smugmug', '', __('SmugMug:','minicard'),'',''),
 			array('social_stumbleupon', '', __('Stumbleupon:','minicard'),'',''),
 			array('social_tumblr', '', __('Tumblr:','minicard'),'',''),
 			array('social_twitter', '', __('Twitter:','minicard'),'',''),
@@ -115,6 +117,7 @@ $minicard_options = (
 			array('social_xing', '', __('Xing:','minicard'),'',''),
 			array('social_yahoobuzz', '', __('Yahoo Buzz:','minicard'),'',''),
 			array('social_yelp', '', __('Yelp:','minicard'),'',''),
+			array('social_xboxlive', '', __('Xbox Live:','minicard'),'',''),
 			array('social_youtube', '', __('You Tube:','minicard'),'','')
 			)
 		),

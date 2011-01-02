@@ -112,7 +112,7 @@
 		
 	<div id="footer"><div class="inner">
 		<ul id="footerlinks">
-		<li class="right"><a href="http://mikejolley.com" title="<?php _e('MiniCard Theme', 'minicard'); ?>"><img src="<?php echo get_bloginfo('template_url').get_option('minicard_theme'); ?>/images/minicard.png" alt="<?php _e('MiniCard Theme', 'minicard'); ?>" /></a> <a href="http://timvandamme.com/" title="<?php _e('Inspired by Tim Van Damme', 'minicard'); ?>" rel="nofollow"><img src="<?php echo get_bloginfo('template_url').get_option('minicard_theme'); ?>/images/inspired.png" alt="<?php _e('Inspired by Tim Van Damme', 'minicard'); ?>" /></a> <a href="http://wordpress.org" title="<?php _e('Powered by WordPress', 'minicard'); ?>" rel="nofollow"><img src="<?php echo get_bloginfo('template_url').get_option('minicard_theme'); ?>/images/wp.png" alt="<?php _e('WordPress', 'minicard'); ?>" /></a></li>
+		<li class="right"><a href="http://mattytemple.com" title="<?php _e('MiniCard Theme', 'minicard'); ?>"><img src="<?php echo get_bloginfo('template_url').get_option('minicard_theme'); ?>/images/minicard.png" alt="<?php _e('MiniCard Theme', 'minicard'); ?>" /></a> <a href="http://wordpress.org" title="<?php _e('Powered by WordPress', 'minicard'); ?>" rel="nofollow"><img src="<?php echo get_bloginfo('template_url').get_option('minicard_theme'); ?>/images/wp.png" alt="<?php _e('WordPress', 'minicard'); ?>" /></a></li>
 		<li class="block"><?php echo get_option('copyright_notice'); ?> <a href="http://mikejolley.com"><?php _e('MiniCard theme for WordPress.', 'minicard'); ?></a></li>
 		<?php if (get_option('footer_include_ids')) : ?>
 			<?php 
