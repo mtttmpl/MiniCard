@@ -113,14 +113,13 @@
 	<div id="footer"><div class="inner">
 		<ul id="footerlinks">
 		<li class="right"><a href="http://mattytemple.com" title="<?php _e('MiniCard Theme', 'minicard'); ?>"><img src="<?php echo get_bloginfo('template_url').get_option('minicard_theme'); ?>/images/minicard.png" alt="<?php _e('MiniCard Theme', 'minicard'); ?>" /></a> <a href="http://wordpress.org" title="<?php _e('Powered by WordPress', 'minicard'); ?>" rel="nofollow"><img src="<?php echo get_bloginfo('template_url').get_option('minicard_theme'); ?>/images/wp.png" alt="<?php _e('WordPress', 'minicard'); ?>" /></a></li>
-		<li class="block"><?php echo get_option('copyright_notice'); ?> <a href="http://mikejolley.com"><?php _e('MiniCard theme for WordPress.', 'minicard'); ?></a></li>
-		<?php if (get_option('footer_include_ids')) : ?>
+		<li class="block"><?php echo get_option('copyright_notice'); ?> 		<?php if (get_option('footer_include_ids')) : ?>
 			<?php 
 				$ids = str_replace(' ', '', get_option('footer_include_ids'));
 				wp_list_pages('include='.$ids.'&sort_column=menu_order&title_li=');
 			?>
 		<?php endif; ?>
-		<li class="last"><a href="#wrapper" title="<?php _e('Back To Top of Page', 'minicard'); ?>"><?php _e('Back to Top', 'minicard'); ?></a></li></ul>
+		 </ul>
 	</div></div><!-- end footer -->
 
 </div><!-- end wrapper -->

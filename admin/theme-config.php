@@ -114,10 +114,10 @@ $minicard_options = (
 			array('social_vimeo', '', __('Vimeo:','minicard'),'',''),
 			array('social_virb', '', __('Virb:','minicard'),'',''),
 			array('social_wordpress', '', __('WordPress:','minicard'),'',''),
+			array('social_xboxlive', '', __('Xbox Live:','minicard'),'',''),
 			array('social_xing', '', __('Xing:','minicard'),'',''),
 			array('social_yahoobuzz', '', __('Yahoo Buzz:','minicard'),'',''),
 			array('social_yelp', '', __('Yelp:','minicard'),'',''),
-			array('social_xboxlive', '', __('Xbox Live:','minicard'),'',''),
 			array('social_youtube', '', __('You Tube:','minicard'),'','')
 			)
 		),

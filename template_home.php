@@ -60,10 +60,10 @@ if ($post->post_content) : ?>
 		array(	'Vimeo', 'social_vimeo'	),
 		array(	'Virb', 'social_virb'	),
 		array(	'WordPress', 'social_wordpress'	),
+		array(	'XboxLive', 'social_xboxlive'	),
 		array(	'Xing', 'social_xing' ),
 		array(	'YahooBuzz', 'social_yahoobuzz'	),
 		array(	'Yelp', 'social_yelp'	),
-		array(	'Xbox Live', 'social_xboxlive'	),
 		array(	'YouTube', 'social_youtube'	),
 	);
 	foreach ($social_options as $social) {
