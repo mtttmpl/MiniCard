@@ -49,6 +49,7 @@ if ($post->post_content) : ?>
 		array(	'Picasa', 'social_picasa'	),
 		array(	'Plurk', 'social_plurk'	),
 		array(	'Posterous', 'social_posterous'	),
+		array(	'PSN', 'social_psn'	),
 		array(	'Readernaut', 'social_readernaut'	),
 		array(	'Reddit', 'social_reddit'	),
 		array(	'Skype', 'social_skype'	),	

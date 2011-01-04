@@ -103,6 +103,7 @@ $minicard_options = (
 			array('social_picasa', '', __('Picasa:','minicard'),'',''),
 			array('social_plurk', '', __('Plurk:','minicard'),'',''),
 			array('social_posterous', '', __('Posterous:','minicard'),'',''),
+			array('social_psn', '', __('PSN:','minicard'),'',''),
 			array('social_readernaut', '', __('Readernaut:','minicard'),'',''),
 			array('social_reddit', '', __('Reddit:','minicard'),'',''),
 			array('social_skype', '', __('Skype:','minicard'),'',''),
