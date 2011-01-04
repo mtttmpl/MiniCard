@@ -89,6 +89,7 @@ $minicard_options = (
 			array('social_foursquare', '', __('Foursquare:','minicard'),'',''),
 			array('social_friendfeed', '', __('FriendFeed:','minicard'),'',''),
 			array('social_github', '', __('GitHub:','minicard'),'',''),
+			array('social_goodreads', '', __('Goodreads:','minicard'),'',''),
 			array('social_googlebuzz', '', __('GoogleBuzz:','minicard'),'',''),
 			array('social_googletalk', '', __('GoogleTalk:','minicard'),'',''),
 			array('social_gowalla', '', __('Gowalla:','minicard'),'',''),

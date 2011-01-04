@@ -35,6 +35,7 @@ if ($post->post_content) : ?>
 		array(	'Foursquare', 'social_foursquare'	),
 		array(	'FriendFeed', 'social_friendfeed'	),
 		array(	'GitHub', 'social_github'	),
+		array(	'Goodreads', 'social_goodreads'	),
 		array(	'GoogleBuzz', 'social_googlebuzz'	),
 		array(	'GoogleTalk', 'social_googletalk'	),
 		array(	'Gowalla', 'social_gowalla'	),
